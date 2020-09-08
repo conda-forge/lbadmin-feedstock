@@ -1,5 +1,5 @@
 {% set name = "lbadmin" %}
-{% set version = "0.0.9" %}
+{% set version = "0.0.10" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/LbAdmin-{{ version }}.tar.gz
-  sha256: bfe27d92e7ff25e048060f768fe45f6fbcdb870fd578b44c95c615d15c8b135d
+  sha256: 89816c2efabb8dd4830c70f67f91cc662e30033bf8df37c7f0b2809885f0e23b
 
 build:
   number: 0
